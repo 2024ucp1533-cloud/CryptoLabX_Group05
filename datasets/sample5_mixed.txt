@@ -1,0 +1,8 @@
+In 2024, the CryptoLabX team began developing a modular framework for teaching
+classical and modern cryptography. The project is divided into several stages:
+Stage 1 covers project setup and file handling; Stage 2 introduces classical
+ciphers such as Caesar, Vigenere, and Playfair; Stage 3 focuses on cryptanalysis
+techniques including frequency analysis and brute-force attacks; and Stage 4
+explores modern cryptographic primitives like AES and RSA. Team members are
+expected to document their progress, write clean code, and use Git for version
+control throughout the semester. Good luck, and happy hacking!
