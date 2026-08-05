@@ -1,0 +1,9 @@
+Cryptography is the practice of secure communication in the presence of adversaries.
+For centuries, rulers and generals relied on simple substitution and transposition
+ciphers to protect their messages. The Caesar cipher, named after Julius Caesar,
+shifted each letter of the alphabet by a fixed number of positions. Although easy to
+break by modern standards, it laid the groundwork for more advanced techniques.
+During the twentieth century, machines such as the Enigma introduced mechanical and
+electromechanical encryption, prompting the development of early computational
+cryptanalysis. Today, cryptography underpins nearly every secure digital system,
+from online banking to private messaging.
