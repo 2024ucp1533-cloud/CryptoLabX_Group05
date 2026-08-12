@@ -1,0 +1,368 @@
+Script started on 2026-08-06 11:42:16+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="28"]
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mcat /etc/os-release[27m
+[7muname -a[27m[A]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ cat /etc/os-release
+[1Puname -[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ uname -a
+[?2004l]133;C\]666;vte.shell.preexec!\Linux ajay-yadav-Latitude-7280 7.0.0-29-generic #29-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 17 20:52:35 UTC 2026 x86_64 GNU/Linux
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [K]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [K]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7msudo apt update[27m[C[C[C[C[C[C[C[C[C[C[Csudo apt update
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: *********         
+[33m0% [Working][0m            Get:1 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+[33m0% [Waiting for headers] [1 InRelease 5,465 B/137 kB 4%][0m                                                        Hit:2 http://in.archive.ubuntu.com/ubuntu resolute InRelease
+[33m                                                        0% [1 InRelease 18.5 kB/137 kB 13%][0m[33m0% [Waiting for headers] [1 InRelease 24.3 kB/137 kB 18%[0m                                                        Get:3 http://in.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+[33m0% [3 InRelease 14.2 kB/137 kB 10%] [1 InRelease 24.3 kB[0m[33m0% [3 InRelease 101 kB/137 kB 74%] [1 InRelease 118 kB/1[0m[33m                                                        0% [3 InRelease 137 kB/137 kB 100%][0m[33m0% [Connecting to in.archive.ubuntu.com (91.189.91.83)][0m[33m0% [Connecting to in.archive.ubuntu.com (91.189.91.83)][0m[33m0% [Connecting to in.archive.ubuntu.com (91.189.91.83)][0m                                                       Hit:4 http://in.archive.ubuntu.com/ubuntu resolute-backports InRelease
+[33m                                                       0% [Working][0m[33m43% [Waiting for headers][0m                         Get:5 http://in.archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages [446 kB]
+[33m44% [5 Packages 12.8 kB/446 kB 3%][0m[33m46% [5 Packages 43.2 kB/446 kB 10%][0m[33m                                   52% [5 Packages 111 kB/446 kB 25%][0m[33m69% [5 Packages 321 kB/446 kB 72%][0m[33m                                  80% [Working][0m[33m80% [5 Packages store 0 B] [Waiting for headers][0m[33m                                                80% [Waiting for headers][0m                         Get:6 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Packages [231 kB]
+[33m80% [6 Packages 5,553 B/231 kB 2%][0m[33m                                  99% [Working][0m[33m99% [6 Packages store 0 B] [Waiting for headers][0m[33m                                                99% [Waiting for headers][0m                         Get:7 http://in.archive.ubuntu.com/ubuntu resolute-updates/multiverse amd64 Packages [11.4 kB]
+[33m99% [7 Packages 5,555 B/11.4 kB 49%][0m[33m                                    100% [Working][0m[33m100% [7 Packages store 0 B][0m[33m                           100% [Working][0m              Fetched 963 kB in 4s (214 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 7%Reading package lists... 7%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 62%Reading package lists... 62%Reading package lists... 62%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m49 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0m]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mpip3 --version[27m[C[C[C[C[C[C[C[C[C[C[Cpip3 --version
+[?2004l]133;C\]666;vte.shell.preexec!\pip 25.1.1 from /usr/lib/python3/dist-packages/pip (python 3.14)
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mpip3 install bandit[27m[C[C[C[C[C[C[C[C[C[C[Cpip3 install bandit
+[?2004l]133;C\]666;vte.shell.preexec!\[1;31merror[0m: [1mexternally-managed-environment[0m
+
+[31m×[0m This environment is externally managed
+[31m╰─>[0m To install Python packages system-wide, try apt install
+[31m   [0m python3-xyz, where xyz is the package you are trying to
+[31m   [0m install.
+[31m   [0m 
+[31m   [0m If you wish to install a non-Debian-packaged Python package,
+[31m   [0m create a virtual environment using python3 -m venv path/to/venv.
+[31m   [0m Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+[31m   [0m sure you have python3-full installed.
+[31m   [0m 
+[31m   [0m If you wish to install a non-Debian packaged Python application,
+[31m   [0m it may be easiest to use pipx install xyz, which will manage a
+[31m   [0m virtual environment for you. Make sure you have pipx installed.
+[31m   [0m 
+[31m   [0m See /usr/share/doc/python3.14/README.venv for more information.
+
+[1;35mnote[0m: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+[1;36mhint[0m: See PEP 668 for the detailed specification.
+]666;vte.shell.postexec=1\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mpip3 install --break-system-packages bandit[27m[C[C[C[C[C[C[C[C[C[C[Cpip3 install --break-system-packages bandit
+[?2004l]133;C\]666;vte.shell.preexec!\Defaulting to user installation because normal site-packages is not writeable
+Collecting bandit
+  Downloading bandit-1.9.4-py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: PyYAML>=5.3.1 in /usr/lib/python3/dist-packages (from bandit) (6.0.3)
+Collecting stevedore>=1.20.0 (from bandit)
+  Downloading stevedore-5.9.0-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: rich in /usr/lib/python3/dist-packages (from bandit) (13.9.4)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/lib/python3/dist-packages (from rich->bandit) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/lib/python3/dist-packages (from rich->bandit) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in /usr/lib/python3/dist-packages (from markdown-it-py>=2.2.0->rich->bandit) (0.1.2)
+Downloading bandit-1.9.4-py3-none-any.whl (134 kB)
+Downloading stevedore-5.9.0-py3-none-any.whl (54 kB)
+Installing collected packages: stevedore, bandit
+[?25l[33m  WARNING: The scripts bandit, bandit-baseline and bandit-config-generator are installed in '/home/ajay-yadav/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m[33m
+[0m[2K   [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2/2[0m [bandit]
+[?25h[1A[2KSuccessfully installed bandit-1.9.4 stevedore-5.9.0
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mbandit --version[27m[C[C[C[C[C[C[C[C[C[C[Cbandit --version
+[?2004l]133;C\]666;vte.shell.preexec!\Command 'bandit' not found, but can be installed with:
+sudo apt install python3-bandit
+]666;vte.shell.postexec=127\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ sudo ia[K[Kapt instlal[K[K[Kall python3-v[Kbandit
+[?2004l]133;C\]666;vte.shell.preexec!\Reading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                Solving dependencies... 0%Solving dependencies... 10%                            The following packages were automatically installed and are no longer required:
+  linux-headers-7.0.0-14
+  linux-headers-7.0.0-14-generic
+  linux-image-unsigned-7.0.0-14-generic
+  linux-main-modules-zfs-7.0.0-14-generic
+  linux-modules-7.0.0-14-generic
+  linux-tools-7.0.0-14
+  linux-tools-7.0.0-14-generic
+Use 'sudo apt autoremove' to remove them.
+
+Installing:
+[32m  python3-bandit
+[0m
+Installing dependencies:
+[32m  python3-git                python3-pbr
+  python3-gitdb              python3-sarif-python-om
+  python3-jschema-to-python  python3-smmap
+  python3-jsonpickle         python3-stevedore
+[0m
+Suggested packages:
+  python-git-doc         python3-numpy
+  python-jsonpickle-doc  python3-simplejson
+
+Summary:
+  Upgrading: 0, Installing: 9, Removing: 0, Not Upgrading: 49
+  Download size: 440 kB
+  Space needed: 2,348 kB / 47.5 GB available
+
+Continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 python3-smmap all 6.0.0-1build1 [20.7 kB]
+[33m1% [1 python3-smmap 5,502 B/20.7 kB 27%][0m[33m                                        6% [Working][0m            Get:2 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 python3-gitdb all 4.0.12-1 [46.4 kB]
+[33m6% [2 python3-gitdb 2,606 B/46.4 kB 6%][0m[33m                                       17% [Working][0m             Get:3 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 python3-git all 3.1.46-1 [149 kB]
+[33m17% [3 python3-git 780 B/149 kB 1%][0m[33m                                   46% [Waiting for headers][0m                         Get:4 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 python3-jsonpickle all 4.0.2+dfsg-2 [40.1 kB]
+[33m46% [4 python3-jsonpickle 572 B/40.1 kB 1%][0m                                           Get:5 http://in.archive.ubuntu.com/ubuntu resolute/main amd64 python3-pbr all 7.0.3-2 [64.1 kB]
+[33m                                           56% [5 python3-pbr 3,650 B/64.1 kB 6%][0m[33m                                      69% [Working][0m             Get:6 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 python3-jschema-to-python all 1.2.3-3build1 [8,320 B]
+[33m70% [6 python3-jschema-to-python 2,895 B/8,320 B 35%][0m[33m                                                     73% [Waiting for headers][0m                         Get:7 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 python3-sarif-python-om all 1.0.4-3build1 [12.7 kB]
+[33m74% [7 python3-sarif-python-om 2,606 B/12.7 kB 21%][0m                                                   Get:8 http://in.archive.ubuntu.com/ubuntu resolute/main amd64 python3-stevedore all 1:5.7.0-2ubuntu1 [22.8 kB]
+[33m                                                   78% [8 python3-stevedore 1,212 B/22.8 kB 5%][0m                                            Get:9 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 python3-bandit all 1.7.10-3 [75.3 kB]
+[33m                                            85% [9 python3-bandit 7,037 B/75.3 kB 9%][0m[33m                                         100% [Working][0m              Fetched 440 kB in 2s (195 kB/s)
+
+7[0;27r8[1ASelecting previously unselected package python3-smmap.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 198006 files and directories currently installed.)
+Preparing to unpack …/0-python3-smmap_6.0.0-1build1_all.deb…
+7[28;0f[42m[30mProgress: [  0%][49m[39m [                                   ] 87[28;0f[42m[30mProgress: [  3%][49m[39m [▉                                  ] 8Unpacking python3-smmap (6.0.0-1build1)…
+7[28;0f[42m[30mProgress: [  5%][49m[39m [█▉                                 ] 8Selecting previously unselected package python3-gitdb.
+Preparing to unpack …/1-python3-gitdb_4.0.12-1_all.deb…
+7[28;0f[42m[30mProgress: [  8%][49m[39m [██▊                                ] 8Unpacking python3-gitdb (4.0.12-1)…
+7[28;0f[42m[30mProgress: [ 11%][49m[39m [███▊                               ] 8Selecting previously unselected package python3-git.
+Preparing to unpack …/2-python3-git_3.1.46-1_all.deb…
+7[28;0f[42m[30mProgress: [ 14%][49m[39m [████▋                              ] 8Unpacking python3-git (3.1.46-1)…
+7[28;0f[42m[30mProgress: [ 16%][49m[39m [█████▋                             ] 8Selecting previously unselected package python3-jsonpickle.
+Preparing to unpack …/3-python3-jsonpickle_4.0.2+dfsg-2_all.deb…
+7[28;0f[42m[30mProgress: [ 19%][49m[39m [██████▌                            ] 8Unpacking python3-jsonpickle (4.0.2+dfsg-2)…
+7[28;0f[42m[30mProgress: [ 22%][49m[39m [███████▌                           ] 8Selecting previously unselected package python3-pbr.
+Preparing to unpack …/4-python3-pbr_7.0.3-2_all.deb…
+7[28;0f[42m[30mProgress: [ 24%][49m[39m [████████▌                          ] 8Unpacking python3-pbr (7.0.3-2)…
+7[28;0f[42m[30mProgress: [ 27%][49m[39m [█████████▍                         ] 8Selecting previously unselected package python3-jschema-to-python.
+Preparing to unpack …/5-python3-jschema-to-python_1.2.3-3build1_all.deb…
+7[28;0f[42m[30mProgress: [ 30%][49m[39m [██████████▍                        ] 8Unpacking python3-jschema-to-python (1.2.3-3build1)…
+7[28;0f[42m[30mProgress: [ 32%][49m[39m [███████████▎                       ] 8Selecting previously unselected package python3-sarif-python-om.
+Preparing to unpack …/6-python3-sarif-python-om_1.0.4-3build1_all.deb…
+7[28;0f[42m[30mProgress: [ 35%][49m[39m [████████████▎                      ] 8Unpacking python3-sarif-python-om (1.0.4-3build1)…
+7[28;0f[42m[30mProgress: [ 38%][49m[39m [█████████████▏                     ] 8Selecting previously unselected package python3-stevedore.
+Preparing to unpack …/7-python3-stevedore_1%3a5.7.0-2ubuntu1_all.deb…
+7[28;0f[42m[30mProgress: [ 41%][49m[39m [██████████████▏                    ] 8Unpacking python3-stevedore (1:5.7.0-2ubuntu1)…
+7[28;0f[42m[30mProgress: [ 43%][49m[39m [███████████████▏                   ] 8Selecting previously unselected package python3-bandit.
+Preparing to unpack …/8-python3-bandit_1.7.10-3_all.deb…
+7[28;0f[42m[30mProgress: [ 46%][49m[39m [████████████████                   ] 8Unpacking python3-bandit (1.7.10-3)…
+7[28;0f[42m[30mProgress: [ 49%][49m[39m [█████████████████                  ] 8Setting up python3-jsonpickle (4.0.2+dfsg-2)…
+7[28;0f[42m[30mProgress: [ 51%][49m[39m [█████████████████▉                 ] 87[28;0f[42m[30mProgress: [ 54%][49m[39m [██████████████████▉                ] 8Setting up python3-pbr (7.0.3-2)…
+7[28;0f[42m[30mProgress: [ 57%][49m[39m [███████████████████▊               ] 87[28;0f[42m[30mProgress: [ 59%][49m[39m [████████████████████▊              ] 8Setting up python3-sarif-python-om (1.0.4-3build1)…
+7[28;0f[42m[30mProgress: [ 62%][49m[39m [█████████████████████▊             ] 87[28;0f[42m[30mProgress: [ 65%][49m[39m [██████████████████████▋            ] 8Setting up python3-jschema-to-python (1.2.3-3build1)…
+7[28;0f[42m[30mProgress: [ 68%][49m[39m [███████████████████████▋           ] 87[28;0f[42m[30mProgress: [ 70%][49m[39m [████████████████████████▌          ] 8Setting up python3-stevedore (1:5.7.0-2ubuntu1)…
+7[28;0f[42m[30mProgress: [ 73%][49m[39m [█████████████████████████▌         ] 87[28;0f[42m[30mProgress: [ 76%][49m[39m [██████████████████████████▍        ] 8Setting up python3-smmap (6.0.0-1build1)…
+7[28;0f[42m[30mProgress: [ 78%][49m[39m [███████████████████████████▍       ] 87[28;0f[42m[30mProgress: [ 81%][49m[39m [████████████████████████████▍      ] 8Setting up python3-gitdb (4.0.12-1)…
+7[28;0f[42m[30mProgress: [ 84%][49m[39m [█████████████████████████████▎     ] 87[28;0f[42m[30mProgress: [ 86%][49m[39m [██████████████████████████████▎    ] 8Setting up python3-git (3.1.46-1)…
+7[28;0f[42m[30mProgress: [ 89%][49m[39m [███████████████████████████████▏   ] 87[28;0f[42m[30mProgress: [ 92%][49m[39m [████████████████████████████████▏  ] 8Setting up python3-bandit (1.7.10-3)…
+7[28;0f[42m[30mProgress: [ 95%][49m[39m [█████████████████████████████████  ] 87[28;0f[42m[30mProgress: [ 97%][49m[39m [██████████████████████████████████ ] 8
+7[0;28r8[1A[J]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ bandit --version
+[?2004l]133;C\]666;vte.shell.preexec!\bandit 1.9.4
+  python version = 3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mnano insecure.py[27m[C[C[C[C[C[C[C[C[C[C[Cnano insecure.py
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;23H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 8.7.1          insecure.py                    [1;56H(B[m[27d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[28d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[2d[?12l[?25h[?25l[1;39H(B[0;7m*[26d(B[m[K[1;56H[2d(B[0;1m[36mimport[39m(B[m subprocess[3d(B[0;1m[36mimport[39m(B[m hashlib[5dusername = (B[0;1m[32m"admin"[6d[39m(B[mpassword = (B[0;1m[32m"admin123"[8d[39m(B[mcmd = input((B[0;1m[32m"Enter command: "[39m(B[m)[9dsubprocess.call(cmd, shell=(B[0;1m[35mTrue[39m(B[m)[11dhash = hashlib.md5(password.encode())[12dprint(hash.hexdigest())[?12l[?25h[?25l[?12l[?25h[9d[?25l[27;15H(B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[28;2H(B[0;7mC(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^Q(B[m Discard buf[?7lf[?7h[26d(B[0;7mWrite to File: insecure.py                               [26;27H(B[m[?12l[?25h[?25l[21G[1K (B[0;7m[ Writing... ](B[m[K[1;39H(B[0;7m [56G(B[m[26;20H(B[0;7m[ Wrote 11 lines ](B[m[27;15H(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[K[28;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[K[?12l[?25h[9;24H[?25l[26d[J[28d[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>[?2004l]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mbandit insecure.py[27m[C[C[C[C[C[C[C[C[C[C[Cbandit insecure.py
+[?2004l]133;C\]666;vte.shell.preexec!\[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.14.4
+[95mRun started:2026-08-06 06:17:48.843257+00:00[0m
+[95m
+Test results:[0m
+[94m>> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
+   Severity: Low   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess
+   Location: ./insecure.py:1:0[0m
+1	import subprocess
+2	import hashlib
+3	
+
+--------------------------------------------------
+[94m>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'admin123'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ./insecure.py:5:11[0m
+4	username = "admin"
+5	password = "admin123"
+6	
+
+--------------------------------------------------
+[91m>> Issue: [B602:subprocess_popen_with_shell_equals_true] subprocess call with shell=True identified, security issue.
+   Severity: High   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b602_subprocess_popen_with_shell_equals_true.html
+   Location: ./insecure.py:8:0[0m
+7	cmd = input("Enter command: ")
+8	subprocess.call(cmd, shell=True)
+9	
+
+--------------------------------------------------
+[91m>> Issue: [B324:hashlib] Use of weak MD5 hash for security. Consider usedforsecurity=False
+   Severity: High   Confidence: High
+   CWE: CWE-327 (https://cwe.mitre.org/data/definitions/327.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b324_hashlib.html
+   Location: ./insecure.py:10:7[0m
+9	
+10	hash = hashlib.md5(password.encode())
+11	print(hash.hexdigest())
+
+--------------------------------------------------
+[95m
+Code scanned:[0m
+	Total lines of code: 8
+	Total lines skipped (#nosec): 0
+[95m
+Run metrics:[0m
+	Total issues (by severity):
+		Undefined: 0
+		Low: 2
+		Medium: 0
+		High: 2
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 3
+[95mFiles skipped (0):[0m
+]666;vte.shell.postexec=1\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ [7mbandit -r insecure.py[27m[C[C[C[C[C[C[C[C[C[C[Cbandit -r insecure.py
+[?2004l]133;C\]666;vte.shell.preexec!\[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.14.4
+[95mRun started:2026-08-06 06:18:29.018273+00:00[0m
+[95m
+Test results:[0m
+[94m>> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
+   Severity: Low   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess
+   Location: ./insecure.py:1:0[0m
+1	import subprocess
+2	import hashlib
+3	
+
+--------------------------------------------------
+[94m>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'admin123'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ./insecure.py:5:11[0m
+4	username = "admin"
+5	password = "admin123"
+6	
+
+--------------------------------------------------
+[91m>> Issue: [B602:subprocess_popen_with_shell_equals_true] subprocess call with shell=True identified, security issue.
+   Severity: High   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b602_subprocess_popen_with_shell_equals_true.html
+   Location: ./insecure.py:8:0[0m
+7	cmd = input("Enter command: ")
+8	subprocess.call(cmd, shell=True)
+9	
+
+--------------------------------------------------
+[91m>> Issue: [B324:hashlib] Use of weak MD5 hash for security. Consider usedforsecurity=False
+   Severity: High   Confidence: High
+   CWE: CWE-327 (https://cwe.mitre.org/data/definitions/327.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b324_hashlib.html
+   Location: ./insecure.py:10:7[0m
+9	
+10	hash = hashlib.md5(password.encode())
+11	print(hash.hexdigest())
+
+--------------------------------------------------
+[95m
+Code scanned:[0m
+	Total lines of code: 8
+	Total lines skipped (#nosec): 0
+[95m
+Run metrics:[0m
+	Total issues (by severity):
+		Undefined: 0
+		Low: 2
+		Medium: 0
+		High: 2
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 3
+[95mFiles skipped (0):[0m
+]666;vte.shell.postexec=1\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-08-06 11:48:47+05:30 [COMMAND_EXIT_CODE="1"]
+Script started on 2026-08-06 11:57:44+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="57" LINES="28"]
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ bandit =[K--verison[K[K[K[Ksion
+[?2004l]133;C\]666;vte.shell.preexec!\bandit 1.9.4
+  python version = 3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]
+]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ nanoin[K[K insecure [K.py
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;22H(B[0;7m[ Reading... ](B[m[26;21H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 8.7.1          insecure.py                    [1;56H(B[m[27d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[28d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[2d(B[0;1m[36mimport[39m(B[m subprocess[3d(B[0;1m[36mimport[39m(B[m hashlib[5dusername = (B[0;1m[32m"admin"[6d[39m(B[mpassword = (B[0;1m[32m"admin123"[8d[39m(B[mcmd = input((B[0;1m[32m"Enter command: "[39m(B[m)[9dsubprocess.call(cmd, shell=(B[0;1m[35mTrue[39m(B[m)[11dhash = hashlib.md5(password.encode())[12dprint(hash.hexdigest())[2d[?12l[?25h[?25l[27;15H(B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[28;2H(B[0;7mC(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^Q(B[m Discard buf[?7lf[?7h[26d(B[0;7mWrite to File: insecure.py                               [26;27H(B[m[?12l[?25h[?25l[21G[1K (B[0;7m[ Writing... ](B[m[K[1;56H[26;20H(B[0;7m[ Wrote 11 lines ](B[m[27;15H(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[K[28;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[K[?12l[?25h[2d[?25l[26d[J[28d[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>[?2004l]666;vte.shell.postexec=0\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ bandit ind=[K[Ksecure.py
+[?2004l]133;C\]666;vte.shell.preexec!\[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.14.4
+[95mRun started:2026-08-06 06:28:39.923272+00:00[0m
+[95m
+Test results:[0m
+[94m>> Issue: [B404:blacklist] Consider possible security implications associated with the subprocess module.
+   Severity: Low   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess
+   Location: ./insecure.py:1:0[0m
+1	import subprocess
+2	import hashlib
+3	
+
+--------------------------------------------------
+[94m>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'admin123'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ./insecure.py:5:11[0m
+4	username = "admin"
+5	password = "admin123"
+6	
+
+--------------------------------------------------
+[91m>> Issue: [B602:subprocess_popen_with_shell_equals_true] subprocess call with shell=True identified, security issue.
+   Severity: High   Confidence: High
+   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b602_subprocess_popen_with_shell_equals_true.html
+   Location: ./insecure.py:8:0[0m
+7	cmd = input("Enter command: ")
+8	subprocess.call(cmd, shell=True)
+9	
+
+--------------------------------------------------
+[91m>> Issue: [B324:hashlib] Use of weak MD5 hash for security. Consider usedforsecurity=False
+   Severity: High   Confidence: High
+   CWE: CWE-327 (https://cwe.mitre.org/data/definitions/327.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b324_hashlib.html
+   Location: ./insecure.py:10:7[0m
+9	
+10	hash = hashlib.md5(password.encode())
+11	print(hash.hexdigest())
+
+--------------------------------------------------
+[95m
+Code scanned:[0m
+	Total lines of code: 8
+	Total lines skipped (#nosec): 0
+[95m
+Run metrics:[0m
+	Total issues (by severity):
+		Undefined: 0
+		Low: 2
+		Medium: 0
+		High: 2
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 1
+		High: 3
+[95mFiles skipped (0):[0m
+]666;vte.shell.postexec=1\]7;file://ajay-yadav-Latitude-7280/home/ajay-yadav/Documents/CryptoLabX_Group05\]0;ajay-yadav@ajay-yadav-Latitude-7280:~/Documents/CryptoLabX_Group05\]666;vte.shell.precmd!\[?2004h]0;ajay-yadav@ajay-yadav-Latitude-7280: ~/Documents/CryptoLabX_Group05[01;32majay-yadav@ajay-yadav-Latitude-7280[00m:[01;34m~/Documents/CryptoLabX_Group05[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-08-06 11:58:50+05:30 [COMMAND_EXIT_CODE="1"]

@@ -1,0 +1,54 @@
+    1  sudo nano /etc/default/grub
+    2  sudo update-grub
+    3  sudo apt update
+    4  sudo apt upgrade -y
+    5  sudo apt install git curl wget build-essential python3-pip -y
+    6  gcc --version
+    7  g++ --version
+    8  mkdir demo
+    9  gnome-screenshot -a
+   10  sudo apt update
+   11  sudo apt install gnome-screenshot
+   12  gnome-screenshot -a
+   13  mkdir demo
+   14  rmdir demo
+   15  clear
+   16  mkdir demo
+   17  cd demo
+   18  pwd
+   19  ls
+   20  touch main.py
+   21  touch demo.cpp
+   22  ls
+   23  tree
+   24  sudo apt install tree
+   25  tree
+   26  rmdir demo
+   27  cd--
+   28  cd --
+   29  rmdir demo
+   30  cd demo
+   31  rm main.py demo.cpp
+   32  cd --
+   33  rmdir demo
+   34  mkdir demo
+   35  cd demo
+   36  touch main.py demo.cpp
+   37  cp demo.cpp test.cpp
+   38  chmod 755 test.cpp
+   39  cd desktop
+   40  cd ~/Documents
+   41  git clone https://github.com/isthisprateek/CryptoLabX_Group05.git
+   42  cd CryptoLabX_Group05
+   43  script sast_lab_log.txt
+   44  cat /etc/os-release
+   45  uname -a
+   46  cd ~/Documents
+   47  cd CryptoLabX_Group05
+   48  clear
+   49  script sast_lab_log.txt
+   50  cat sast_lab_log.txt
+   51  history > command_history.txt
+   52  script -a sast_lab_log.txt
+   53  cat sast_lab_log.txt
+   54  history > command_history.txt
