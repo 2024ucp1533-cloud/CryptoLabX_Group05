@@ -1,0 +1,66 @@
+DRONE CONTROL SYSTEM - SECURITY TEST CASES
+
+TC-01: Valid Login
+Input:
+Username: admin
+Password: drone123
+
+Expected Result:
+Login should be successful.
+
+Actual Result:
+Login successful.
+
+Status:
+PASS
+
+
+TC-02: Missing Authentication
+Precondition:
+User is NOT logged in.
+
+Steps:
+1. Start the application.
+2. Select option 2 - Upload Waypoint.
+3. Enter 26.9124,75.7873.
+
+Expected Secure Behaviour:
+System should deny access because the user is not authenticated.
+
+Actual Result:
+Waypoint is uploaded without login.
+
+Status:
+FAIL - Missing Authentication vulnerability
+
+
+TC-03: Command Injection
+Steps:
+1. Select option 3 - Execute Mission.
+2. Enter:
+echo Mission_Started
+
+Expected Result:
+Only valid predefined mission commands should be accepted.
+
+Actual Result:
+User supplied command is executed using os.system().
+
+Status:
+FAIL - Command Injection vulnerability
+
+
+TC-04: Improper Input Validation
+Steps:
+1. Select option 2 - Upload Waypoint.
+2. Enter an invalid waypoint:
+hello
+
+Expected Secure Behaviour:
+System should reject invalid latitude/longitude input.
+
+Actual Result:
+Invalid input is accepted and stored.
+
+Status:
+FAIL - Improper Input Validation
