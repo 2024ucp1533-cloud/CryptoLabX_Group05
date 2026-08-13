@@ -2,11 +2,21 @@
 [2026-08-04 22:34:20] Menu Option Selected: Attack
 [2026-08-04 22:34:23] Menu Option Selected: Analyze
 [2026-08-04 22:48:48] Menu Option Selected: Attack
+<<<<<<< HEAD
+[2026-08-04 23:48:01] Menu Option Selected: Analyze
+[2026-08-06 10:18:11] Menu Option Selected: Encrypt
+[2026-08-06 10:18:16] Menu Option Selected: Analyze
+[2026-08-06 12:45:14] Menu Option Selected: Analyze
+=======
 [2026-08-05 20:31:00] Menu Option Selected: Encrypt
 [2026-08-05 20:31:06] Menu Option Selected: Exit
+<<<<<<< HEAD
 [2026-08-06 12:47:22] Menu Option Selected: Encrypt
 [2026-08-06 12:47:29] Menu Option Selected: Exit
 [2026-08-06 12:48:19] Menu Option Selected: Analyze
 [2026-08-07 12:37:23] Menu Option Selected: Encrypt
 [2026-08-07 12:37:30] Menu Option Selected: Analyze
 [2026-08-07 12:37:39] Menu Option Selected: Exit
+=======
+>>>>>>> 139c915b178fef0d6e3e880b4409d832939ae46d
+>>>>>>> f9cdf9d8e2b51420b50e03a4c8e22fa055ce0225
